@@ -95,6 +95,8 @@ public class EnemyController : MonoBehaviour
                     anim.SetBool("idle", true);
                     Debug.Log("Catch");
                     target.Clear();
+
+                    GameData.result = 1;
                 }
             }
         }

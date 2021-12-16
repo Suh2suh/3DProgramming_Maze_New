@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D23CE8F4-184D-0C15-AFEF-6BF129A9C555}</ProjectGuid>
+    <ProjectGuid>{90FFE09B-C784-55C4-45D3-D5A06B3B8986}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -106,6 +106,8 @@
     <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Scripts\BtnManager.cs" />
+    <Compile Include="Assets\Scripts\GameData.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />

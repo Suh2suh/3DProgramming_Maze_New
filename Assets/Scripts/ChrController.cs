@@ -9,7 +9,7 @@ public class ChrController : MonoBehaviour
     float rotateSpd = 8.0f;
     float xRotate = 0f;
 
-    float dashDelay = 0;
+    //float dashDelay = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -65,11 +65,16 @@ public class ChrController : MonoBehaviour
         if (other.name.Contains("Portal"))
         {
             List<Vector3> movePoses = GameObject.Find("GameManager").GetComponent<GameManager>().movePoses;
-            
-            if(movePoses != null)
+
+            if (movePoses != null)
             {
                 gameObject.transform.position = movePoses[Random.Range(0, movePoses.Count)] + (Vector3.forward * 20);
             }
+        }
+
+        if(other.name == "Goal")
+        {
+            GameData.result = 2;
         }
     }
 }

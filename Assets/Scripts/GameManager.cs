@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        GameData.result = 0;
+        GameData.havingKey = 0;
+
         portalPoses = new List<GameObject>();
         randPortals = new List<GameObject>();
 
@@ -48,6 +52,11 @@ public class GameManager : MonoBehaviour
                 once = 0;
             }
             randPortalDelete();
+        }
+
+        if(GameData.result != 0)
+        {
+            SceneManager.LoadScene("EndScene");
         }
     }
 
