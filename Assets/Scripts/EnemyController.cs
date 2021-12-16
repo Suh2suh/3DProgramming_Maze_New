@@ -7,11 +7,13 @@ public class EnemyController : MonoBehaviour
 {
     Animator anim;
     NavMeshAgent agent;
+    AudioSource music;
 
     float TeleportSec = 15.0f;
     float time = 0f;
     float moveSec = 0f;
     float rotateSec = 0f;
+    float screamSec = 3f;
 
     float moveSpd = 10f;
     //float rotateSpd = 3f;
@@ -29,8 +31,9 @@ public class EnemyController : MonoBehaviour
         anim = GetComponent<Animator>();
         SlenderPoses = new List<GameObject>();
         agent = GetComponent<NavMeshAgent>();
+        music = GetComponent<AudioSource>();
 
-        for(int i = 1; i <= GameData.slenderPosN; i++)
+        for (int i = 1; i <= GameData.slenderPosN; i++)
         {
             GameObject slenderPos = GameObject.Find("SlenderPos" + i);
 
@@ -55,6 +58,18 @@ public class EnemyController : MonoBehaviour
 
                 anim.SetBool("scream", true);
                 anim.SetBool("run", true);
+
+                screamSec -= Time.deltaTime;
+
+                if (screamSec <= 0)
+                {
+                    music.volume = 0f;
+                }
+                else
+                {
+                    music.pitch = Random.Range(0.8f, 1.0f);
+                    music.volume = screamSec * 0.33f;
+                }
             }
             else
             {
