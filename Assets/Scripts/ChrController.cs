@@ -10,6 +10,7 @@ public class ChrController : MonoBehaviour
     float xRotate = 0f;
 
     Vector3 nowPos;
+    bool posFix = false;
 
     bool dashDelay = false;
     float dashTime = 0;
@@ -38,6 +39,11 @@ public class ChrController : MonoBehaviour
         ChrRotate();
 
         ChrDash();
+
+        if (posFix == true)
+        {
+            gameObject.transform.position = nowPos;
+        }
     }
 
     void ChrMove()
@@ -127,12 +133,10 @@ public class ChrController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.name.Contains("WALL"))
-        {
-            nowPos = gameObject.transform.position;
-            gameObject.transform.position = nowPos;
+        if(collision.gameObject.name.Contains("Wall")){
+            moveSpd = 0;
         }
     }
 }
