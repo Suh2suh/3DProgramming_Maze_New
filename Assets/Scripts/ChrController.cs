@@ -5,11 +5,14 @@ using UnityEngine;
 public class ChrController : MonoBehaviour
 {
     float moveSpd = 15.0f;
-    float startSpd = 10.0f;
+    float startSpd = 15.0f;
     float rotateSpd = 8.0f;
     float xRotate = 0f;
 
-    //float dashDelay = 0;
+    Vector3 nowPos;
+
+    bool dashDelay = false;
+    float dashTime = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +23,17 @@ public class ChrController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(dashDelay)
+        {
+            dashTime += Time.deltaTime;
+
+            if (dashTime >= 4)
+            {
+                dashDelay = false;
+                dashTime = 0;
+            }
+        }
+
         ChrMove();
         ChrRotate();
 
@@ -52,7 +66,19 @@ public class ChrController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            moveSpd = startSpd * 2f;
+            if (!dashDelay)
+            {
+                dashTime += Time.deltaTime;
+
+                moveSpd = startSpd * 1.7f;
+
+                if (dashTime >= 2)
+                {
+                    moveSpd = startSpd;
+                    dashDelay = true;
+                    dashTime = 0;
+                }
+            }
         }
         else
         {
@@ -74,7 +100,39 @@ public class ChrController : MonoBehaviour
 
         if(other.name == "Goal")
         {
-            GameData.result = 2;
+            if(GameData.havingKey == GameData.keyNum)
+                GameData.result = 2;
+            else
+            {
+                if(GameObject.Find("BackPos") != null)
+                    transform.position = GameObject.Find("BackPos").transform.position;
+                GameObject.Find("UIManager").GetComponent<UIManager>().setNoKeyText();
+            }
+        }
+
+        if (other.name.Contains("KeyObj"))
+        {
+            int one = 0;
+
+            if(one == 0)
+            {
+                if(GameData.havingKey < GameData.keyNum)
+                {
+                    GameData.havingKey++;
+                    Destroy(other.gameObject);
+
+                    GameObject.Find("GameManager").GetComponent<GameManager>().randKeyMaker();
+                }
+            }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name.Contains("WALL"))
+        {
+            nowPos = gameObject.transform.position;
+            gameObject.transform.position = nowPos;
         }
     }
 }

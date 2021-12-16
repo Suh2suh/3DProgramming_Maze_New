@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
         SlenderPoses = new List<GameObject>();
         agent = GetComponent<NavMeshAgent>();
 
-        for(int i = 1; i <= 8; i++)
+        for(int i = 1; i <= GameData.slenderPosN; i++)
         {
             GameObject slenderPos = GameObject.Find("SlenderPos" + i);
 
@@ -63,12 +63,16 @@ public class EnemyController : MonoBehaviour
                 anim.SetBool("idle", true);
             }
 
-            if(Vector3.Distance(gameObject.transform.position, target[0].transform.position) > missDistance) {
-                anim.SetBool("scream", false);
-                anim.SetBool("run", false);
-                anim.SetBool("idle", true);
-                Debug.Log("Miss");
-                target.Clear();
+            if(GameData.havingKey < GameData.keyNum)
+            {
+                if (Vector3.Distance(gameObject.transform.position, target[0].transform.position) > missDistance)
+                {
+                    anim.SetBool("scream", false);
+                    anim.SetBool("run", false);
+                    anim.SetBool("idle", true);
+                    Debug.Log("Miss");
+                    target.Clear();
+                }
             }
         }
         else {
