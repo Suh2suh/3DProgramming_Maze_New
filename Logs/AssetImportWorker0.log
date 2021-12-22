@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 18363.1916; Version 1909; 64bit' Language: 'ko' Physical Memory: 14248 MB
+OS: 'Windows 10 Education; OS build 18363.1977; Version 1909; 64bit' Language: 'ko' Physical Memory: 14248 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/SUHYEON L/Documents/GitHub/3DProgramming_Maze_New
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53566
+64519
 Successfully changed project path to: C:/Users/SUHYEON L/Documents/GitHub/3DProgramming_Maze_New
 C:/Users/SUHYEON L/Documents/GitHub/3DProgramming_Maze_New
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,448 +35,1843 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006692 seconds.
+Registered in 0.007672 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.087 seconds
+- Completed reload, in  4.159 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002129 seconds.
+Registered in 0.001993 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.249 seconds
+- Completed reload, in  1.224 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1250 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1719.
-Total: 2.514700 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.030900 ms MarkObjects: 2.171800 ms  DeleteObjects: 0.126200 ms)
+Total: 2.387100 ms (FindLiveObjects: 0.196300 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.014000 ms  DeleteObjects: 0.137400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/ChrController.cs
-  artifactKey: Guid(0ead989e8c548d141a71156a4289e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChrController.cs using Guid(0ead989e8c548d141a71156a4289e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441437086312c9fdd4bf690f09027318') in 0.056230 seconds
-  Import took 0.059130 seconds .
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png
+  artifactKey: Guid(698c13ae89df40739f71b672cb824c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png using Guid(698c13ae89df40739f71b672cb824c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fa4be8254504c96008fd87dbcca1ff') in 0.179339 seconds
+  Import took 0.182219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.193768 seconds.
+  Time since last request: 0.007844 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/FairyDustRandomPosition.cs
+  artifactKey: Guid(2432f6905425fb745809ea5c7440c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/FairyDustRandomPosition.cs using Guid(2432f6905425fb745809ea5c7440c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7771bf515b31d22cae4a4b17f959c7db') in 0.022867 seconds
+  Import took 0.025785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009201 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+  artifactKey: Guid(7251702aa6bb4f4fb19ff470fda37a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd using Guid(7251702aa6bb4f4fb19ff470fda37a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071e565682beea454cb602a6e8b3a21a') in 0.022129 seconds
+  Import took 0.024944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015694 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_16.psd
+  artifactKey: Guid(644d49e318e072e479dcbc0ed58c45f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_16.psd using Guid(644d49e318e072e479dcbc0ed58c45f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a551a6a31362c991090e6102fa491ef7') in 0.013192 seconds
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052913 seconds.
+  path: Assets/Scenes/EndScene/ReflectionProbe-0.exr
+  artifactKey: Guid(3a795aef19ad73f4aaf71482db58b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene/ReflectionProbe-0.exr using Guid(3a795aef19ad73f4aaf71482db58b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129cf9acf0f01dd3eda6248cf9e79ba2') in 0.086239 seconds
+  Import took 0.089229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008327 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader
+  artifactKey: Guid(157df49a5c934feb9655e9365acf4cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader using Guid(157df49a5c934feb9655e9365acf4cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a1ca1ee781c34aed6a1b1646a04b11') in 0.010547 seconds
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007642 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader
+  artifactKey: Guid(5db36cb1f44743cebd920015aa3d9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader using Guid(5db36cb1f44743cebd920015aa3d9e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32d156b342265988415151415ff5273') in 0.007797 seconds
+  Import took 0.010474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007534 seconds.
+  path: Assets/#NVJOB Slender/Slender/Animations/Attack.anim
+  artifactKey: Guid(c1c02e5531014335b8ef9f4f1c4f7905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Animations/Attack.anim using Guid(c1c02e5531014335b8ef9f4f1c4f7905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd78f9a594c4dc1b526ecb8542432f4') in 0.038495 seconds
+  Import took 0.041497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007838 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(23955c3dca429cf41a44fdfb4c206276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(23955c3dca429cf41a44fdfb4c206276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afedcce8e4625dd185377125117a84e') in 0.005769 seconds
+  Import took 0.008787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019222 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs
+  artifactKey: Guid(417414ab2f654856a8eb6879720992ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs using Guid(417414ab2f654856a8eb6879720992ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9457d713a6703cc620a25e741550dbc') in 0.006274 seconds
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007389 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader
+  artifactKey: Guid(b5dab9cabb534654b65e640c16d7456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader using Guid(b5dab9cabb534654b65e640c16d7456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d4c6ff956c9baa65baffee15b94547') in 0.006293 seconds
+  Import took 0.008878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004741 seconds.
+  path: Assets/Footsteps - Essentials
+  artifactKey: Guid(dbecdd87d9bcec24f9d90409bd45d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials using Guid(dbecdd87d9bcec24f9d90409bd45d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2173fcf149a31c796b786f87b0b117') in 0.005829 seconds
+  Import took 0.008524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014938 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+  artifactKey: Guid(4bf40dc361d241f6b0ce012df6440928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs using Guid(4bf40dc361d241f6b0ce012df6440928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fca3957bd86c29ecb8958056ef0fef') in 0.006861 seconds
+  Import took 0.009575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007523 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader
+  artifactKey: Guid(db34e523aff5478b900ddd0293f1d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader using Guid(db34e523aff5478b900ddd0293f1d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945dda3ddab28dd1d8a26e9278e625cd') in 0.006562 seconds
+  Import took 0.009663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004530 seconds.
+  path: Assets/PinwheelFantasyEffect
+  artifactKey: Guid(255d316a6fddbce489f4c12dcea1eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect using Guid(255d316a6fddbce489f4c12dcea1eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f478bfd157b2188b64d785a50e9ba72b') in 0.005844 seconds
+  Import took 0.008816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004475 seconds.
+  path: Assets/PinwheelFantasyEffect/Model
+  artifactKey: Guid(1da96d2ac5d53b64aa48b3b758e61a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Model using Guid(1da96d2ac5d53b64aa48b3b758e61a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb7652b3b95ac0b506254f9aa82aa61') in 0.006375 seconds
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006892 seconds.
+  path: Assets/Scenes/EndScene/LightingData.asset
+  artifactKey: Guid(9a1aa4570cf89ab469288cee39bd372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene/LightingData.asset using Guid(9a1aa4570cf89ab469288cee39bd372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671bb8a28f6f7ff889f26079acf4a411') in 0.011941 seconds
+  Import took 0.014753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007914 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+  artifactKey: Guid(a967873b663f4b8da0831112df454c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader using Guid(a967873b663f4b8da0831112df454c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5945c25d9726e55b51b500a2b465d35') in 0.006526 seconds
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007917 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader
+  artifactKey: Guid(4366a9cd19d14d4298395f955bd521b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader using Guid(4366a9cd19d14d4298395f955bd521b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54892a076b5ae9cb15b584c3dcebd99') in 0.006625 seconds
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007669 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+  artifactKey: Guid(291c2e9677b249e39279600a9cbd2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader using Guid(291c2e9677b249e39279600a9cbd2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98cb1f8e12d518aa3360f4f1a14c7f6') in 0.007170 seconds
+  Import took 0.009997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007289 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/DemoManager.cs
+  artifactKey: Guid(6a1c78b865ceed443a8a0f280406b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/DemoManager.cs using Guid(6a1c78b865ceed443a8a0f280406b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36aca9f13b56c9f073728ec0ada90b0') in 0.006191 seconds
+  Import took 0.008926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005070 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects
+  artifactKey: Guid(1c7c831e148c4214b3501395df53d830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects using Guid(1c7c831e148c4214b3501395df53d830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dd477e38ed6e5a24daa236ae069482') in 0.005992 seconds
+  Import took 0.008553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011799 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs
+  artifactKey: Guid(966506bc399541c997779e698a2842ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs using Guid(966506bc399541c997779e698a2842ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e819a9d069034638c2ecb9e097c3d5a6') in 0.006138 seconds
+  Import took 0.009045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005354 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts
+  artifactKey: Guid(eb8dc4ec0849416baaa37c716b011533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts using Guid(eb8dc4ec0849416baaa37c716b011533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94242123bab3f941d0debe86d4e57a') in 0.006665 seconds
+  Import took 0.009666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015913 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_05.psd
+  artifactKey: Guid(1d77ebe178eb6ed4ab6e8004b1cc2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_05.psd using Guid(1d77ebe178eb6ed4ab6e8004b1cc2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446dc54fe39ce146f90e13c83b6893c1') in 0.014109 seconds
+  Import took 0.017073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023386 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader
+  artifactKey: Guid(fceb0b44d6084f7da40611b1020e898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader using Guid(fceb0b44d6084f7da40611b1020e898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef42e50576cd6b81f691b5b180a00a9') in 0.005994 seconds
+  Import took 0.008808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006932 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+  artifactKey: Guid(a4ca9b3a6d434feb8adad46e65443f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs using Guid(a4ca9b3a6d434feb8adad46e65443f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b7a81bc79472b784654006c97478de') in 0.004654 seconds
+  Import took 0.007285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006723 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader
+  artifactKey: Guid(c9e63cb53c8d40b69bc7d00cb7ab2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader using Guid(c9e63cb53c8d40b69bc7d00cb7ab2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11b3dbc1d9e13959691f22f7e04ea0b') in 0.005627 seconds
+  Import took 0.008458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007288 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png
+  artifactKey: Guid(9ae03039132c4e99b885764303fc0b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png using Guid(9ae03039132c4e99b885764303fc0b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e02f3cf3c40a21b53ef27760b0b539') in 0.015052 seconds
+  Import took 0.017821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016116 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs
+  artifactKey: Guid(cf858ff7b94947c281f3bdf82e698621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs using Guid(cf858ff7b94947c281f3bdf82e698621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6f4588e8115b14f7eaeae1feb08c32') in 0.005469 seconds
+  Import took 0.008029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008692 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd
+  artifactKey: Guid(e0a7e37c03cc4ce0b0700850f9fdcf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd using Guid(e0a7e37c03cc4ce0b0700850f9fdcf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc1e0bc13c01092c4354d34f1c862a6') in 0.014725 seconds
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008837 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs
+  artifactKey: Guid(0809da9dce58465ea7c3b921bd982355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs using Guid(0809da9dce58465ea7c3b921bd982355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bf444a9074cfec76f83a86d00136d5') in 0.006547 seconds
+  Import took 0.009311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008258 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+  artifactKey: Guid(69c12e79a585406181ab150dd9a62732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs using Guid(69c12e79a585406181ab150dd9a62732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100fe4e814642328714fabd2167c7fa4') in 0.005636 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007322 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+  artifactKey: Guid(543b847d4ff54b1999e8511852d3005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs using Guid(543b847d4ff54b1999e8511852d3005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f98f757a1ca7fa35245db53d47e6b1') in 0.006250 seconds
+  Import took 0.008816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007116 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+  artifactKey: Guid(55d1c16e16a5477c9da0e4c4252fb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader using Guid(55d1c16e16a5477c9da0e4c4252fb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86962e51f740f153d505fe7eea1bcc0e') in 0.005914 seconds
+  Import took 0.008604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045125 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_03.psd
+  artifactKey: Guid(270f62878cfe91446adae7624a598e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_03.psd using Guid(270f62878cfe91446adae7624a598e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a27d7b51f121741c125519b60a4fa6') in 0.013564 seconds
+  Import took 0.016674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008790 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader
+  artifactKey: Guid(6883340d1ce54457825857f48f6997a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader using Guid(6883340d1ce54457825857f48f6997a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80009ee184f680be7585fb1d913c5584') in 0.005869 seconds
+  Import took 0.008589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007527 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+  artifactKey: Guid(99b3865006fc488c949e2f8c1e527c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs using Guid(99b3865006fc488c949e2f8c1e527c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479a269495e46dd61c78c5bdf6c359e6') in 0.005589 seconds
+  Import took 0.008321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006482 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs
+  artifactKey: Guid(08c91621bec046ceb0cc181af08434cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs using Guid(08c91621bec046ceb0cc181af08434cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b442a40b094183aaede97a0051975c3') in 0.005918 seconds
+  Import took 0.008648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007484 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(13aa259463eb405380b2716c235fb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(13aa259463eb405380b2716c235fb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f847c3204f68aae67b3b3d04cfac2b') in 0.012763 seconds
+  Import took 0.015755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007235 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader
+  artifactKey: Guid(d0ccccbf41f0444b8343c060cecf4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader using Guid(d0ccccbf41f0444b8343c060cecf4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1257ad60ac320fcf8b1e80c1a97d9d27') in 0.006764 seconds
+  Import took 0.010504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023343 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+  artifactKey: Guid(eab8872486c345b89c8b74eb1b4bd04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs using Guid(eab8872486c345b89c8b74eb1b4bd04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19468b2c05d4e4fd181d91cc4db221c9') in 0.005184 seconds
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006307 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+  artifactKey: Guid(6b82cef470fb47b8a9b0a1e9286e35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader using Guid(6b82cef470fb47b8a9b0a1e9286e35c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba51af4ce3b4eb78eb92e380a2d43228') in 0.005525 seconds
+  Import took 0.008085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006996 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Materials/Branches.png
+  artifactKey: Guid(95782c17eafb411eb86b0d25d01ca1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Materials/Branches.png using Guid(95782c17eafb411eb86b0d25d01ca1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea05834d5cdce0b6388d9571bcbfd1f') in 0.015527 seconds
+  Import took 0.018364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012316 seconds.
+  path: Assets/Jeremy/Texture
+  artifactKey: Guid(8ef3ccf157925de41afd63d9b808701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Texture using Guid(8ef3ccf157925de41afd63d9b808701e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b1e748b999716e1aefc2a9772096ec') in 0.005229 seconds
+  Import took 0.007921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006021 seconds.
+  path: Assets/Rust Key/Scene/Skybox_scene.mat
+  artifactKey: Guid(f7c448eb1675ff1419db74ccec2fba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Scene/Skybox_scene.mat using Guid(f7c448eb1675ff1419db74ccec2fba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4a9f0b57271b68e025f5179023c371') in 0.081753 seconds
+  Import took 0.084407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012620 seconds.
+  path: Assets/#NVJOB Slender/Slender/Animations
+  artifactKey: Guid(6d4704b85ba04d3b9f9e609572915597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Animations using Guid(6d4704b85ba04d3b9f9e609572915597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255939aad0865f02ff2540e33f691e35') in 0.005112 seconds
+  Import took 0.007664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007222 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png
+  artifactKey: Guid(e100698067da47af80b7006b404a2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png using Guid(e100698067da47af80b7006b404a2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f15aefa765c14dd56a16206c8ce08f') in 0.013443 seconds
+  Import took 0.016067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021319 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_02.psd
+  artifactKey: Guid(c2c49082dd98e034ca0d72362b458246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_02.psd using Guid(c2c49082dd98e034ca0d72362b458246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c523fbb651fe9d410b447b82c7ec22') in 0.012932 seconds
+  Import took 0.015565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015637 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs
+  artifactKey: Guid(22ceb4522c7343be83424dc181eec97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs using Guid(22ceb4522c7343be83424dc181eec97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d8f870220b344e54eca85417a9eb7a') in 0.005637 seconds
+  Import took 0.008165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006512 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+  artifactKey: Guid(5723635ebc714d5f8ba64d886821c07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs using Guid(5723635ebc714d5f8ba64d886821c07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfa0ec429b6ceb2c9ea376e159e8b9') in 0.005398 seconds
+  Import took 0.007954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004864 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Materials
+  artifactKey: Guid(8a161f665f0841c4b91ab6809ca3e415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Materials using Guid(8a161f665f0841c4b91ab6809ca3e415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6388fc638c8dc60eb7919f1be18a9826') in 0.004820 seconds
+  Import took 0.007623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006605 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader
+  artifactKey: Guid(e60e86b54ee14fdbb6805adb0c279f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader using Guid(e60e86b54ee14fdbb6805adb0c279f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131bbd2d5d609d499143ca9c2f3a9895') in 0.007088 seconds
+  Import took 0.010081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008021 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+  artifactKey: Guid(9cd6aa80ad9c4d4fbef45119a429a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs using Guid(9cd6aa80ad9c4d4fbef45119a429a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236240560ca276456cd14a7aa0405e05') in 0.006316 seconds
+  Import took 0.009590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005316 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor/Resources
+  artifactKey: Guid(551845217802dc74c8d48819244c1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor/Resources using Guid(551845217802dc74c8d48819244c1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154bf5e5936cfb92e28619082e954460') in 0.005621 seconds
+  Import took 0.008501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010238 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+  artifactKey: Guid(0855d1ceddc447f8a305368128f3198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs using Guid(0855d1ceddc447f8a305368128f3198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa33ac9a5f40250a72fb4e680bc9723') in 0.005193 seconds
+  Import took 0.008193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015765 seconds.
+  path: Assets/PinwheelFantasyEffect/Model/Materials
+  artifactKey: Guid(61878d6966dbbbe45a6bf38a72b609d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Model/Materials using Guid(61878d6966dbbbe45a6bf38a72b609d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586c4f74fb77708e507f3f1d5d23fba7') in 0.005589 seconds
+  Import took 0.008771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007803 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
+  artifactKey: Guid(4228e16a36f44be3b185632546a6964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs using Guid(4228e16a36f44be3b185632546a6964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad6c1346b44d15e92f7f7baa88a27e1') in 0.005778 seconds
+  Import took 0.008845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006437 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc
+  artifactKey: Guid(d25fc23c0cfc4c3d8f52e50bd1c9a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc using Guid(d25fc23c0cfc4c3d8f52e50bd1c9a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61d9d947accd55b7f9c09ae05983598') in 0.010987 seconds
+  Import took 0.013912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025335 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs
+  artifactKey: Guid(f27cc58a4e4942c191479c92c5a043f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs using Guid(f27cc58a4e4942c191479c92c5a043f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774a76edb7644f3c7c2e736aaad25443') in 0.005708 seconds
+  Import took 0.008571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032779 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader
+  artifactKey: Guid(6d4561a1fb4341f7a60f9dc029569251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader using Guid(6d4561a1fb4341f7a60f9dc029569251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73df073afeb0edfe4d39962486ebb573') in 0.006396 seconds
+  Import took 0.008952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033388 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader
+  artifactKey: Guid(a49875e46e6e4eaf9b07c71447702281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader using Guid(a49875e46e6e4eaf9b07c71447702281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168b86e930226f8bf1532482b67bf1d9') in 0.006230 seconds
+  Import took 0.009018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020706 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_14.psd
+  artifactKey: Guid(ae031ad1f3eeac240b05650ffcc48bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_14.psd using Guid(ae031ad1f3eeac240b05650ffcc48bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf1e63f06d38ddb43e517a11b4c5e41') in 0.014654 seconds
+  Import took 0.017277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007718 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png
+  artifactKey: Guid(402968a5c078445ab26472cfb0705808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png using Guid(402968a5c078445ab26472cfb0705808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e7111e3b5d15030d8a2a2e08d6a10') in 0.015082 seconds
+  Import took 0.018024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026147 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+  artifactKey: Guid(e96bf2bd6e4a41b3ae41fa674269a3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs using Guid(e96bf2bd6e4a41b3ae41fa674269a3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381f5295f6cc9d5630697e664410942b') in 0.008035 seconds
+  Import took 0.010877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007177 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+  artifactKey: Guid(e3694b2018d547c3b37af7946a0f9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader using Guid(e3694b2018d547c3b37af7946a0f9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c619548b3900287f90221cb72b1e3083') in 0.005718 seconds
+  Import took 0.008523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014282 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9965cd1e894ff09428d3d8860d4018ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9965cd1e894ff09428d3d8860d4018ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9405ec00d023226beb939114ef748d8a') in 0.006237 seconds
+  Import took 0.008966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007619 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_13.psd
+  artifactKey: Guid(30c2263448fe0434397522cea667701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_13.psd using Guid(30c2263448fe0434397522cea667701f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4cc4e85bac14b778d9ae157aad0b0') in 0.015703 seconds
+  Import took 0.018853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008418 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+  artifactKey: Guid(ddaf7b8bb1924817b0b94cd98cf5a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader using Guid(ddaf7b8bb1924817b0b94cd98cf5a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e724e02e01a1010a701a2a92f727ea') in 0.006678 seconds
+  Import took 0.009409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041910 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader
+  artifactKey: Guid(ed50a791e4144026b4cc8be898092a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader using Guid(ed50a791e4144026b4cc8be898092a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0179ad1919c925358820f54ca8abbaf') in 0.006296 seconds
+  Import took 0.009184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007880 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_00.psd
+  artifactKey: Guid(95b41b1dd355ec6448696f4476dd4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_00.psd using Guid(95b41b1dd355ec6448696f4476dd4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac0fbca321b24889a5923aaef0cf70') in 0.015015 seconds
+  Import took 0.018193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010328 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomEditor.cs
+  artifactKey: Guid(17d3f1d502654167abc2112b69c71bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomEditor.cs using Guid(17d3f1d502654167abc2112b69c71bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03814e0932412079899d368eb98b532') in 0.006022 seconds
+  Import took 0.009147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016669 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+  artifactKey: Guid(9904fc0308b5407fbf8baf6c3cd98d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader using Guid(9904fc0308b5407fbf8baf6c3cd98d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a788d05e8415c2d735eaefa1d60b93c1') in 0.007096 seconds
+  Import took 0.009716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007713 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+  artifactKey: Guid(192a50c98dd84b729f699ae2085fe4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader using Guid(192a50c98dd84b729f699ae2085fe4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff2a87b355a1bd7a062fe97122ab16') in 0.006825 seconds
+  Import took 0.009995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007651 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+  artifactKey: Guid(3cb70021c7914b2080abd457180f7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader using Guid(3cb70021c7914b2080abd457180f7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8427bec5a8da262f72ff54f4b35f5af') in 0.006760 seconds
+  Import took 0.009551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007895 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader
+  artifactKey: Guid(c438270e615a45079b56a52a755fb075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader using Guid(c438270e615a45079b56a52a755fb075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf966e98e51a72bd6da95b2ea8afa33') in 0.009965 seconds
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071389 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader
+  artifactKey: Guid(a761608602d94225b9cb7fcc6cb1955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader using Guid(a761608602d94225b9cb7fcc6cb1955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cf62b7df9e4bac952c63a42b23be72') in 0.006174 seconds
+  Import took 0.008773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016195 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor
+  artifactKey: Guid(47124c948df3f6347a86fd0741efb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor using Guid(47124c948df3f6347a86fd0741efb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70f3c064fbf505a954635401e0654f') in 0.006063 seconds
+  Import took 0.008814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036574 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader
+  artifactKey: Guid(4ee7085fd3884123a396a12b7d167b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader using Guid(4ee7085fd3884123a396a12b7d167b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e6dd4f13e985984ac078311a897170') in 0.006735 seconds
+  Import took 0.009804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025909 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader
+  artifactKey: Guid(8b8c6aa9d0214815a0c98183b68a8d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader using Guid(8b8c6aa9d0214815a0c98183b68a8d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90bb5640ebd32adf6206381a8345bc8') in 0.006157 seconds
+  Import took 0.009154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007847 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader
+  artifactKey: Guid(30729ac423514835bff0e0f25b112ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader using Guid(30729ac423514835bff0e0f25b112ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76997b31f89c60e45b7555bf18703dfd') in 0.007275 seconds
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007762 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+  artifactKey: Guid(95e862f5f514430d8d050ef4b68f0ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader using Guid(95e862f5f514430d8d050ef4b68f0ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe982784b5c1bb6df77a17b216eec23') in 0.007164 seconds
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007243 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader
+  artifactKey: Guid(a87098063def4da2b0587381c176ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader using Guid(a87098063def4da2b0587381c176ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffc3ddcab0e18983d06a0e0d2fd64b5') in 0.007247 seconds
+  Import took 0.010352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025930 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_10.psd
+  artifactKey: Guid(da41e16940fac3248b68dedcc103f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_10.psd using Guid(da41e16940fac3248b68dedcc103f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235c73978eefe16efea3b93f82a3b8fb') in 0.014313 seconds
+  Import took 0.017166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018239 seconds.
+  path: Assets/Rust Key/Scene/Demo.unity
+  artifactKey: Guid(e4bd0f8c766747149a5887108bf32a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Scene/Demo.unity using Guid(e4bd0f8c766747149a5887108bf32a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bc4129eec389dad7efa1eec873b2f8') in 0.006670 seconds
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007425 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+  artifactKey: Guid(57da945954db4d8fb3afe010f6295cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs using Guid(57da945954db4d8fb3afe010f6295cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7bdb61a3b56a2af60f93f63cd11faa') in 0.006550 seconds
+  Import took 0.009389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007214 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader
+  artifactKey: Guid(ab9802d16c914a3cabc824fdeb2db412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader using Guid(ab9802d16c914a3cabc824fdeb2db412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76722bcc13de28a41f22d79a9605b772') in 0.007609 seconds
+  Import took 0.010498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007527 seconds.
+  path: Assets/#NVJOB Slender/Slender/Animations/Run.anim
+  artifactKey: Guid(69c0224251e24953b35452b7f41f886e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Animations/Run.anim using Guid(69c0224251e24953b35452b7f41f886e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37cad4b77bfa401aeb3c343a8990e37') in 0.017756 seconds
+  Import took 0.020833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049228 seconds.
+  path: Assets/Scenes/GameScene/ReflectionProbe-0.exr
+  artifactKey: Guid(f3d4f60c2aba0f14da1675ace7e2e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/ReflectionProbe-0.exr using Guid(f3d4f60c2aba0f14da1675ace7e2e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd44b6a51022fdc19a632060f6a047d2') in 0.018252 seconds
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023197 seconds.
+  path: Assets/Basic Metal Texture Pack
+  artifactKey: Guid(a193c02942a9871409b60268405ec825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack using Guid(a193c02942a9871409b60268405ec825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924636fe9727b2c807a8fb72153081e1') in 0.006062 seconds
+  Import took 0.008638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006709 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader
+  artifactKey: Guid(cecdcfec431a4ca2ba81114cf8e50125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader using Guid(cecdcfec431a4ca2ba81114cf8e50125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e74010caaf5ff80e565e91c119cb50') in 0.005996 seconds
+  Import took 0.008841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007964 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs
+  artifactKey: Guid(cc5a57156d784fabb22a94c54a237c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs using Guid(cc5a57156d784fabb22a94c54a237c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ecdbe3e0d1097cb18c094c926c1cb5') in 0.008823 seconds
+  Import took 0.011718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007824 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Test.cs
+  artifactKey: Guid(1ae875efa3a40cf44b957da25dce2160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Test.cs using Guid(1ae875efa3a40cf44b957da25dce2160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c614433ad1a09e3ed823a202fedd3207') in 0.006598 seconds
+  Import took 0.009573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035570 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png
+  artifactKey: Guid(8345e20fa28c42bd854aff1a9cae7ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png using Guid(8345e20fa28c42bd854aff1a9cae7ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9e2e3479bc7eae646b774231c30a8e') in 0.015002 seconds
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009506 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader
+  artifactKey: Guid(e2b89dad781d48c68822056e576aea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader using Guid(e2b89dad781d48c68822056e576aea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e5b2548171a0754cc02e8e8762d7e5') in 0.007925 seconds
+  Import took 0.011279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013868 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+  artifactKey: Guid(143019aa08604ef28a2740cc57ae7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader using Guid(143019aa08604ef28a2740cc57ae7406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b175b1fc3b406f23587d7dbe61fd860e') in 0.006037 seconds
+  Import took 0.008641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006860 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader
+  artifactKey: Guid(2f403209abd54d12ac8c5ac9f1144d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader using Guid(2f403209abd54d12ac8c5ac9f1144d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1457b71e027c893311a6c78f087a7b') in 0.006572 seconds
+  Import took 0.009304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007172 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs
+  artifactKey: Guid(ba6aeab87a87454685317a32465edab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs using Guid(ba6aeab87a87454685317a32465edab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb57748b6b906714579f1368c248c836') in 0.005645 seconds
+  Import took 0.008280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007067 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
+  artifactKey: Guid(2b1bcc46fdee4be8bfca28edb16056a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs using Guid(2b1bcc46fdee4be8bfca28edb16056a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da7b76779d0f7b1ee558928fd03d0d9') in 0.005475 seconds
+  Import took 0.008227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007213 seconds.
+  path: Assets/Scripts/GameData.cs
+  artifactKey: Guid(276ae006d569b514daf947aba9aa84b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameData.cs using Guid(276ae006d569b514daf947aba9aa84b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83111f6da5f1a94b731c4a4b42964454') in 0.005852 seconds
+  Import took 0.008447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024457 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+  artifactKey: Guid(4c2bbcbdb1ac427ca8d82670fb146bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs using Guid(4c2bbcbdb1ac427ca8d82670fb146bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f85a17339b0ec167dab3cc5ba518f13') in 0.006410 seconds
+  Import took 0.009373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021916 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+  artifactKey: Guid(4a1c9599b8524250b7e9d5b11ca0a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs using Guid(4a1c9599b8524250b7e9d5b11ca0a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192951ed13b52fffb0dac77ea507684f') in 0.006005 seconds
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013498 seconds.
+  path: Assets/PinwheelFantasyEffect/README.txt
+  artifactKey: Guid(0a68047201b199443b544e74feff1680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/README.txt using Guid(0a68047201b199443b544e74feff1680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046057eeb5790ec834fd333077415c8a') in 0.016577 seconds
+  Import took 0.019364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007123 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+  artifactKey: Guid(872c9f85f8ec4719ad4aabf6002fe71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader using Guid(872c9f85f8ec4719ad4aabf6002fe71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b24951b2a63515a016fc66013b6dbd') in 0.006263 seconds
+  Import took 0.008904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007228 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+  artifactKey: Guid(327182dae1394c35a16bff0dc3b50cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs using Guid(327182dae1394c35a16bff0dc3b50cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ef9ee6cb4b5d896cef22af68605fa3') in 0.006027 seconds
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017545 seconds.
+  path: Assets/#NVJOB Slender/Slender/Animations/Walk.anim
+  artifactKey: Guid(ae9933e0bfa84c979f1bdeaa09ba9e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Animations/Walk.anim using Guid(ae9933e0bfa84c979f1bdeaa09ba9e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b248822445d7ccd9f1911694cc0a2afd') in 0.024609 seconds
+  Import took 0.027938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030628 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+  artifactKey: Guid(1df563c5c1624578976ca0cda3e73714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader using Guid(1df563c5c1624578976ca0cda3e73714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e495473b9698040b242f7ceb39a0fd6d') in 0.007693 seconds
+  Import took 0.010759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007075 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs
+  artifactKey: Guid(4d2924fea4604f8c8cbd2f1d3c412b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs using Guid(4d2924fea4604f8c8cbd2f1d3c412b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02e620c3ec1bc64f1e46e7372b493bd') in 0.006554 seconds
+  Import took 0.009539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007283 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader
+  artifactKey: Guid(b85feab6cdf548ed97e3e34b2973e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader using Guid(b85feab6cdf548ed97e3e34b2973e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9531a836596c42e8eba4ffd72c7a9f4') in 0.006796 seconds
+  Import took 0.009885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013921 seconds.
+  path: Assets/PinwheelFantasyEffect/Scene/DemoSettings.lighting
+  artifactKey: Guid(6cd1e8981f744f549a1b17d84fd33c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Scene/DemoSettings.lighting using Guid(6cd1e8981f744f549a1b17d84fd33c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '28ab9383090108a99806ca52775751f3') in 0.010441 seconds
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032907 seconds.
+  path: Assets/Rust Key/Mesh/rust_key.FBX
+  artifactKey: Guid(0669f3d8f4b119f418a4bbe061cc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Mesh/rust_key.FBX using Guid(0669f3d8f4b119f418a4bbe061cc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae3822f81798bf312eda4a6dc086cba') in 0.118390 seconds
+  Import took 0.121741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020434 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk
+  artifactKey: Guid(9f9bae32466c41e4c81c6fcedff48c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk using Guid(9f9bae32466c41e4c81c6fcedff48c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae39ba3771859c16f03d5754a2625f30') in 0.005469 seconds
+  Import took 0.008011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053722 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs
+  artifactKey: Guid(43baf91cf7ea4471b340e79bef452812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs using Guid(43baf91cf7ea4471b340e79bef452812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd0bd3c2b3d505b70beb06bd0ed4940') in 0.006456 seconds
+  Import took 0.009097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007543 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader
+  artifactKey: Guid(18856479f322437bbe94468b0ee80750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader using Guid(18856479f322437bbe94468b0ee80750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dd7ed293c50fe47569af167b813c1a') in 0.006695 seconds
+  Import took 0.009861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007984 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_11.psd
+  artifactKey: Guid(7651e64b2b8c7ab43af6ae6d86f52f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_11.psd using Guid(7651e64b2b8c7ab43af6ae6d86f52f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0bc20f7da48c07922fe7e5c7ebd22') in 0.013618 seconds
+  Import took 0.016225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006150 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing
+  artifactKey: Guid(2c0469017a4e4c40aa0a158c4d26c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing using Guid(2c0469017a4e4c40aa0a158c4d26c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f096bf13a05ca82f07a97cc46b72c0c') in 0.005909 seconds
+  Import took 0.008827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010468 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Materials/AlphaCutoff.shader
+  artifactKey: Guid(6e5331f3ebfc4ae08508c11975c46388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Materials/AlphaCutoff.shader using Guid(6e5331f3ebfc4ae08508c11975c46388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6176a7bd38ed2db350e2882ad7cd10df') in 0.006694 seconds
+  Import took 0.009540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031360 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_15.psd
+  artifactKey: Guid(f766e49c29700fe41a1c292f80453abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_15.psd using Guid(f766e49c29700fe41a1c292f80453abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618610c25441d4f56c58f1f015cac9eb') in 0.014948 seconds
+  Import took 0.018143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008975 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(44f9b0df928b2c24ba62205ede420f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png using Guid(44f9b0df928b2c24ba62205ede420f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e75e6991f23b67b771c6a563c72956') in 0.017181 seconds
+  Import took 0.019974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008632 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs
+  artifactKey: Guid(fdb2009c85994a27ad8db61f2d2b1d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs using Guid(fdb2009c85994a27ad8db61f2d2b1d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b494294b5aefb77293e4646f9e5a5af3') in 0.006904 seconds
+  Import took 0.009607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007802 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader
+  artifactKey: Guid(c4a4a6c81a7d43aea135940bcb2c28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader using Guid(c4a4a6c81a7d43aea135940bcb2c28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9634a139b42f4b27c79a98c3fdec3c48') in 0.006730 seconds
+  Import took 0.010243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007577 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+  artifactKey: Guid(3a7a03293a044550b16c36b51a4fb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader using Guid(3a7a03293a044550b16c36b51a4fb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a598117e8ca5f72d1290bbee9741ccab') in 0.006015 seconds
+  Import took 0.008905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027921 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(0910f75b572745c59e95e500ce2de632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png using Guid(0910f75b572745c59e95e500ce2de632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9ae9e92fb1919a924470ed4a99a652') in 0.014861 seconds
+  Import took 0.017498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009034 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(44ee0f541fdbcf84d9804a3073e9fc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_dir.png using Guid(44ee0f541fdbcf84d9804a3073e9fc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267f9cf992511eae00da90cd29102c76') in 0.017940 seconds
+  Import took 0.021048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015535 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Scripts
+  artifactKey: Guid(928472f88c52429aa55923e6fc932ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Scripts using Guid(928472f88c52429aa55923e6fc932ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b80fc477a3d84896c4b8fdb312c9cd') in 0.005229 seconds
+  Import took 0.007902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007740 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader
+  artifactKey: Guid(7ad6c960f0cd471a830c083bc415bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader using Guid(7ad6c960f0cd471a830c083bc415bd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f74eee44d86ae5433a682c605661cc') in 0.006687 seconds
+  Import took 0.009775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030365 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs
+  artifactKey: Guid(ab640b90397e46c59ba25e52e7647199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs using Guid(ab640b90397e46c59ba25e52e7647199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5aeb5803491ab51b1497411f605e9f') in 0.005772 seconds
+  Import took 0.008717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007036 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader
+  artifactKey: Guid(eae3c8eb91c442029b682d6e7a4a232b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader using Guid(eae3c8eb91c442029b682d6e7a4a232b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da08586846eea5590abc063b30086b47') in 0.007324 seconds
+  Import took 0.010267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019225 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+  artifactKey: Guid(86d71de7324340a28f72e0523dc74697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader using Guid(86d71de7324340a28f72e0523dc74697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de595adee395b6c8bd6ee0013371ee24') in 0.006097 seconds
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005431 seconds.
+  path: Assets/Rust Key/Scene
+  artifactKey: Guid(4c1e3a14ff99f4149a1f89be82fa7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Scene using Guid(4c1e3a14ff99f4149a1f89be82fa7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1f9d23545cc9a92599bdee037204a5') in 0.005574 seconds
+  Import took 0.008157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014532 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader
+  artifactKey: Guid(8919929befd74017b5ad6209ef55525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader using Guid(8919929befd74017b5ad6209ef55525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c863ab93fe51c529572bfe975bd607') in 0.007312 seconds
+  Import took 0.010573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008463 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor/PolarisV2AdsWindow.cs
+  artifactKey: Guid(71887c4ec9a14df44811e411c9040194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor/PolarisV2AdsWindow.cs using Guid(71887c4ec9a14df44811e411c9040194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5c7d33e2dd4b3ff2b6c4d683aa73c8') in 0.005804 seconds
+  Import took 0.008788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005632 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField
+  artifactKey: Guid(99cd6fc616ba4d1f8eebfb3a5addefe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField using Guid(99cd6fc616ba4d1f8eebfb3a5addefe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2f358880dd5d1e0211ddc23aedea85') in 0.005812 seconds
+  Import took 0.008545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031416 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader
+  artifactKey: Guid(68bc731c66664849b5e0d8a7a3d4ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader using Guid(68bc731c66664849b5e0d8a7a3d4ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acef5a5a5fd46da0e8d7fd7fd871c9a6') in 0.006599 seconds
+  Import took 0.009255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038861 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_12.psd
+  artifactKey: Guid(eff79b61281892b478e83c7787eb0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_12.psd using Guid(eff79b61281892b478e83c7787eb0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8955df189f83889198607efd644ff7e') in 0.015103 seconds
+  Import took 0.017801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029244 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader
+  artifactKey: Guid(3e9b9b51c89a4525a99a707c67e1ce39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader using Guid(3e9b9b51c89a4525a99a707c67e1ce39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6a5b42ab1fa122c12054c86f8db83e') in 0.006891 seconds
+  Import took 0.009727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018744 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader
+  artifactKey: Guid(2514c13d50ae4f908898b6c3e17ff18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader using Guid(2514c13d50ae4f908898b6c3e17ff18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53db29693ba8af483c2225a816d81d6e') in 0.007685 seconds
+  Import took 0.010571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014676 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs
+  artifactKey: Guid(d6dd7028cd1d4104aca4fb178733704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs using Guid(d6dd7028cd1d4104aca4fb178733704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affb8487535adbd6190b4b5c06a9744e') in 0.005276 seconds
+  Import took 0.007957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015660 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs
+  artifactKey: Guid(a9aba16ed7984954aa37f8084098130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs using Guid(a9aba16ed7984954aa37f8084098130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b16c7853610d02581c30bd3e17731b8') in 0.005526 seconds
+  Import took 0.008739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004882 seconds.
+  path: Assets/Jeremy
+  artifactKey: Guid(f96feac272ee9e645915817892b74766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy using Guid(f96feac272ee9e645915817892b74766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90cf915a4eaa3743754bd948ad8de9') in 0.006476 seconds
+  Import took 0.009219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007223 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc
+  artifactKey: Guid(1717f602e66f491783eefd96b5e7a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc using Guid(1717f602e66f491783eefd96b5e7a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15e374304a18310889f9ff84b3f3dd') in 0.007319 seconds
+  Import took 0.010448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021318 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader
+  artifactKey: Guid(d6dcc532296c4a37abfdeb79f111348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader using Guid(d6dcc532296c4a37abfdeb79f111348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b70da18804f305316eaf487d406e7') in 0.006684 seconds
+  Import took 0.009771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007215 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+  artifactKey: Guid(c89981eefdaa410387b1d5c532bfdca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader using Guid(c89981eefdaa410387b1d5c532bfdca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59dac8648facb510b2a33912efbf561') in 0.006215 seconds
+  Import took 0.009227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007227 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+  artifactKey: Guid(334220a0270f4bbbb0d5630673a20786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs using Guid(334220a0270f4bbbb0d5630673a20786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608dfecc4de3f62b0425e27985712568') in 0.007594 seconds
+  Import took 0.010524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004588 seconds.
+  path: Assets/#NVJOB Slender/Slender/Materials
+  artifactKey: Guid(094a405f417845a38aa250b1c602191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Materials using Guid(094a405f417845a38aa250b1c602191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000ce7a96a41cef554471926e026187b') in 0.005027 seconds
+  Import took 0.007951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007140 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs
+  artifactKey: Guid(4035623d16a54d23a90b7c436650d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs using Guid(4035623d16a54d23a90b7c436650d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430d3a26c3227ab4f7ad119e13becaf') in 0.005925 seconds
+  Import took 0.008992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013886 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+  artifactKey: Guid(df188ae90bc0429aa719e6d5276e9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader using Guid(df188ae90bc0429aa719e6d5276e9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352c8d9d20857464fc883bfcf16a407a') in 0.006424 seconds
+  Import took 0.009124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014677 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs
+  artifactKey: Guid(d48a1e38bc754e7993b893fa1ebc17e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs using Guid(d48a1e38bc754e7993b893fa1ebc17e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0793c356e97f1abba9c2c27b8c6c5207') in 0.005546 seconds
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023692 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader
+  artifactKey: Guid(e5a2a8fde5c94f8bbcb56989e01ffb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader using Guid(e5a2a8fde5c94f8bbcb56989e01ffb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c19e8b0db4fb77482609f96d064b6be') in 0.006427 seconds
+  Import took 0.009398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018511 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders
+  artifactKey: Guid(99d914c8ed9d4be98a9059c358d681b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders using Guid(99d914c8ed9d4be98a9059c358d681b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b62492d73867657b42491c7d4a21e') in 0.006836 seconds
+  Import took 0.009694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014067 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/FairyMeteorAddForceDemo.cs
+  artifactKey: Guid(4620539742db0bb43a6f153a7308595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/FairyMeteorAddForceDemo.cs using Guid(4620539742db0bb43a6f153a7308595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec6cf0d81787878ec1e246bb713d9ac') in 0.006347 seconds
+  Import took 0.009235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013890 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(301886805fe0a7e4580761c27f60e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_light.exr using Guid(301886805fe0a7e4580761c27f60e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c92aeecb89926d7230fc80596ea6d00') in 0.022067 seconds
+  Import took 0.025207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023030 seconds.
+  path: Assets/PinwheelFantasyEffect/Scene
+  artifactKey: Guid(eb432cfa05304ef479e3e23b6f28fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Scene using Guid(eb432cfa05304ef479e3e23b6f28fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115037a9a403547a27cd569f656b61c0') in 0.006102 seconds
+  Import took 0.009148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034111 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs
+  artifactKey: Guid(f7980c2ce243435abba56fccfef37c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs using Guid(f7980c2ce243435abba56fccfef37c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba386965917c610ded8fd982c4999da') in 0.005717 seconds
+  Import took 0.008601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013732 seconds.
   path: Assets/Scripts/ChrController.cs
   artifactKey: Guid(0ead989e8c548d141a71156a4289e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChrController.cs using Guid(0ead989e8c548d141a71156a4289e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8270ef8d7632193b6f626db5abc48af') in 0.009694 seconds
-  Import took 0.013795 seconds .
+Start importing Assets/Scripts/ChrController.cs using Guid(0ead989e8c548d141a71156a4289e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fd67c363f84c9592e4ee4d94cb2075') in 0.005739 seconds
+  Import took 0.008442 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.764 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 2.532000 ms (FindLiveObjects: 0.296100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.094100 ms  DeleteObjects: 0.096400 ms)
+Received Import Request.
+  Time since last request: 0.027439 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs
+  artifactKey: Guid(38b613d9882149d5bea4e70215cfb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs using Guid(38b613d9882149d5bea4e70215cfb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbd5331a3f9f40a663618e4f987c590') in 0.006607 seconds
+  Import took 0.009581 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002948 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.702 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 2.525300 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.038200 ms MarkObjects: 2.192100 ms  DeleteObjects: 0.098900 ms)
+Received Import Request.
+  Time since last request: 0.029652 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
+  artifactKey: Guid(5b8a53dcf7d44150909052b828d2401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png using Guid(5b8a53dcf7d44150909052b828d2401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a98fa5950cc642d8148c05f7445ef2') in 0.014721 seconds
+  Import took 0.017713 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1728.
-Total: 2.303400 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.972700 ms  DeleteObjects: 0.099200 ms)
+Received Import Request.
+  Time since last request: 0.012008 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_09_large.psd
+  artifactKey: Guid(f60202c34cfbc7d408229b84f92c666d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_09_large.psd using Guid(f60202c34cfbc7d408229b84f92c666d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10536f150df5f3d4b2677c690051e1da') in 0.016597 seconds
+  Import took 0.019458 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1731.
-Total: 2.354000 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.031300 ms MarkObjects: 2.046800 ms  DeleteObjects: 0.093700 ms)
+Received Import Request.
+  Time since last request: 0.023945 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader
+  artifactKey: Guid(90879401b6754f668c88077db905237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader using Guid(90879401b6754f668c88077db905237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90188ae200b606fee75f102a8c1da121') in 0.006516 seconds
+  Import took 0.009157 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.900 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1734.
-Total: 3.521900 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.983000 ms  DeleteObjects: 0.114700 ms)
+Received Import Request.
+  Time since last request: 0.005144 seconds.
+  path: Assets/Jeremy/Animations
+  artifactKey: Guid(68e8e4d4d81488142af0b71e53519f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Animations using Guid(68e8e4d4d81488142af0b71e53519f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb78082470046926ea1acb4e7e0d771') in 0.005144 seconds
+  Import took 0.007878 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003396 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1737.
-Total: 3.040400 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.617700 ms  DeleteObjects: 0.098000 ms)
+Received Import Request.
+  Time since last request: 0.027286 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_09.psd
+  artifactKey: Guid(d83699103152c764f8a471d9e358b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_09.psd using Guid(d83699103152c764f8a471d9e358b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8b55fd0180a071340eb8845db60566') in 0.014805 seconds
+  Import took 0.017897 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003024 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.978 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 2.771600 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.035400 ms MarkObjects: 2.414100 ms  DeleteObjects: 0.119000 ms)
+Received Import Request.
+  Time since last request: 0.011006 seconds.
+  path: Assets/PinwheelFantasyEffect/Scene/Demo.unity
+  artifactKey: Guid(99842c9f7d7ed0e408e5e7ec78bafc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Scene/Demo.unity using Guid(99842c9f7d7ed0e408e5e7ec78bafc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58030ebe4fd40571fc67f7f92a3b72f') in 0.007614 seconds
+  Import took 0.010906 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005321 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1743.
-Total: 7.359300 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.125500 ms MarkObjects: 6.798200 ms  DeleteObjects: 0.122900 ms)
+Received Import Request.
+  Time since last request: 0.007073 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs
+  artifactKey: Guid(f27b2e44056a4029b8c372e7f680f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs using Guid(f27b2e44056a4029b8c372e7f680f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005ae1faa25cee1f02247099a7857705') in 0.005320 seconds
+  Import took 0.007890 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002330 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1746.
-Total: 2.514500 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.076900 ms  DeleteObjects: 0.095700 ms)
+Received Import Request.
+  Time since last request: 0.007372 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Materials/Grass.png
+  artifactKey: Guid(ccc0939c37fb496a976475d7a850866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Materials/Grass.png using Guid(ccc0939c37fb496a976475d7a850866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f824f5f01377b3e26f66df9fb02833a') in 0.016639 seconds
+  Import took 0.019399 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002388 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.858 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 4.038400 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.070600 ms MarkObjects: 3.469500 ms  DeleteObjects: 0.207400 ms)
+Received Import Request.
+  Time since last request: 0.006450 seconds.
+  path: Assets/Rust Key
+  artifactKey: Guid(aefe406beeb3bab4aa5f781395a71bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key using Guid(aefe406beeb3bab4aa5f781395a71bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d798906e94d0766bb7a87417e7fa9d') in 0.006375 seconds
+  Import took 0.008958 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002573 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1752.
-Total: 2.707100 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.250000 ms  DeleteObjects: 0.104300 ms)
+Received Import Request.
+  Time since last request: 0.007032 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader
+  artifactKey: Guid(cb8900ef7b854e35a7a3c5e349792455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader using Guid(cb8900ef7b854e35a7a3c5e349792455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a2f5c8450f65dd21db1534cd5f543') in 0.006575 seconds
+  Import took 0.009503 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.763 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 7.094100 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.063300 ms MarkObjects: 6.579500 ms  DeleteObjects: 0.134900 ms)
+Received Import Request.
+  Time since last request: 0.007774 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+  artifactKey: Guid(f7ec5b9d299d4aa78ca1dbb82957a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png using Guid(f7ec5b9d299d4aa78ca1dbb82957a85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd212fd4b59dc77509c7af5f3caf6479a') in 0.013539 seconds
+  Import took 0.016846 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002896 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 2.562700 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.181300 ms  DeleteObjects: 0.114000 ms)
+Received Import Request.
+  Time since last request: 0.008084 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+  artifactKey: Guid(87a0c46987a84a72952319955abedbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader using Guid(87a0c46987a84a72952319955abedbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062d9e2879ec507c8c53d238356d6e95') in 0.006796 seconds
+  Import took 0.009675 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.548 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1761.
-Total: 2.837600 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.035200 ms MarkObjects: 2.466200 ms  DeleteObjects: 0.110800 ms)
+Received Import Request.
+  Time since last request: 0.006908 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs
+  artifactKey: Guid(d5fabb4213344fecb4952ae8a0be9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs using Guid(d5fabb4213344fecb4952ae8a0be9054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccb4ad59b97727cf5cf65559b97cbd9') in 0.005856 seconds
+  Import took 0.008396 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002527 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.639 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1764.
-Total: 2.384400 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.005800 ms  DeleteObjects: 0.089200 ms)
+Received Import Request.
+  Time since last request: 0.006277 seconds.
+  path: Assets/PinwheelFantasyEffect/Model/Materials/No Name.mat
+  artifactKey: Guid(d006404c81163e843a9060a419bdfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Model/Materials/No Name.mat using Guid(d006404c81163e843a9060a419bdfd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48432abaadbaee37aa4793f82022509') in 0.018593 seconds
+  Import took 0.021540 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1767.
-Total: 2.931500 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.495100 ms  DeleteObjects: 0.117700 ms)
+Received Import Request.
+  Time since last request: 0.009413 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_06.psd
+  artifactKey: Guid(501e13ff0e20b64429a79bc8c9f5f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_06.psd using Guid(501e13ff0e20b64429a79bc8c9f5f27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0352dadc478f19e28d3e2e817733feaa') in 0.015514 seconds
+  Import took 0.018405 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002411 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.723 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
+Received Import Request.
+  Time since last request: 0.009288 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader
+  artifactKey: Guid(627d5a51537b4089b42b7a86c96511b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader using Guid(627d5a51537b4089b42b7a86c96511b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670b68e6dc2e48b9eb77e05f377f288') in 0.006369 seconds
+  Import took 0.009024 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1770.
-Total: 2.583600 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.100900 ms  DeleteObjects: 0.098100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.019844 seconds.
+  path: Assets/Scenes/GameScene/LightingData.asset
+  artifactKey: Guid(1e9f1c08ca2ecf04eb32dbfebb39da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/LightingData.asset using Guid(1e9f1c08ca2ecf04eb32dbfebb39da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985e692ffe0913071d0383c1b3cae82f') in 0.006203 seconds
+  Import took 0.009044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009907 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor/Resources/PolarisV2AdsImage.png
+  artifactKey: Guid(ac117709a24435141b097dfca3baca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor/Resources/PolarisV2AdsImage.png using Guid(ac117709a24435141b097dfca3baca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d6365ee73959c32d70b8ca29c36b5') in 0.019320 seconds
+  Import took 0.022272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012764 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs
+  artifactKey: Guid(c5d8cc3f712c4cd5833720b861c1c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs using Guid(c5d8cc3f712c4cd5833720b861c1c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd934ea01ac252ae4cd2e47697d6a9b') in 0.005867 seconds
+  Import took 0.008540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007202 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor/CompileLogger.cs
+  artifactKey: Guid(3fd59da782b7cbe4f85bb4d4a6aa29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor/CompileLogger.cs using Guid(3fd59da782b7cbe4f85bb4d4a6aa29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642e71b2f26b64912578635c5c3fa827') in 0.005735 seconds
+  Import took 0.008811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015584 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_01.psd
+  artifactKey: Guid(ea1d4e11db3f37642b6af548dcd0a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_01.psd using Guid(ea1d4e11db3f37642b6af548dcd0a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5340e6d8a8b18bf66eafd0e5981595c6') in 0.015050 seconds
+  Import took 0.017888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008757 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_04.psd
+  artifactKey: Guid(b5c34c76189cc8946b59594fbf90c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_04.psd using Guid(b5c34c76189cc8946b59594fbf90c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5684ff4028973c012614810d387a137a') in 0.017289 seconds
+  Import took 0.020196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016082 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader
+  artifactKey: Guid(0b253bcab4ef43cb91203807da9a9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader using Guid(0b253bcab4ef43cb91203807da9a9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a13ddeb3ec04978390602fa42736fd') in 0.006204 seconds
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007139 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+  artifactKey: Guid(8cb73c635e2d4c229a6ab9b5f41b81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs using Guid(8cb73c635e2d4c229a6ab9b5f41b81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d7dbdc946282d1675004d92061d024') in 0.005922 seconds
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004844 seconds.
+  path: Assets/#NVJOB Slender/Slender/Sounds
+  artifactKey: Guid(944e80542a49435aad8dffac4e0d2b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Sounds using Guid(944e80542a49435aad8dffac4e0d2b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9080ac4de2103aa936769526db4be72f') in 0.005379 seconds
+  Import took 0.007860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041901 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader
+  artifactKey: Guid(ba4052a78c454516a304255de18dad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader using Guid(ba4052a78c454516a304255de18dad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149b2419ecef57efae7853faeaa3e9e8') in 0.006766 seconds
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013413 seconds.
+  path: Assets/PinwheelFantasyEffect/Script
+  artifactKey: Guid(a2afc628a02245248bbc30defbe3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script using Guid(a2afc628a02245248bbc30defbe3202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef73fa04a731a31e2b02830aaa1e4c19') in 0.006445 seconds
+  Import took 0.009277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005060 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture
+  artifactKey: Guid(31e3b8285faf61040a88b9fbd3f58b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture using Guid(31e3b8285faf61040a88b9fbd3f58b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3762c702440d58a403588f57ceeff') in 0.005508 seconds
+  Import took 0.008223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007816 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_08.psd
+  artifactKey: Guid(41328f57928458e4188e5c39ff2dad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_08.psd using Guid(41328f57928458e4188e5c39ff2dad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272748486f232f2e3ac75e18a684b12c') in 0.015561 seconds
+  Import took 0.018581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039932 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader
+  artifactKey: Guid(ed047934ef784e06a123a132ba097a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader using Guid(ed047934ef784e06a123a132ba097a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d659f7099a1bd5d5230a1567a568923') in 0.007413 seconds
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005457 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch
+  artifactKey: Guid(c037282f9a664ef58ea69fc6601efeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch using Guid(c037282f9a664ef58ea69fc6601efeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb6b6b2896d00e1b4d3945e1fdd5906') in 0.006402 seconds
+  Import took 0.009041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023382 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs
+  artifactKey: Guid(d30856bbe84e4506bb487e3ad159a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs using Guid(d30856bbe84e4506bb487e3ad159a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455e6722f5dd49e90736db3650968a82') in 0.005810 seconds
+  Import took 0.008522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006617 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader
+  artifactKey: Guid(e96e47e2072d4f46b244e938fabf4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader using Guid(e96e47e2072d4f46b244e938fabf4e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7d0f6f1fb24fa5ee0877164c33caa2') in 0.006066 seconds
+  Import took 0.008907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056416 seconds.
+  path: Assets/#NVJOB Slender
+  artifactKey: Guid(228b1d99711eb3e4b9a798d5932ad17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender using Guid(228b1d99711eb3e4b9a798d5932ad17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b875771dd280da240d70f55bd4114f27') in 0.005883 seconds
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007955 seconds.
+  path: Assets/PinwheelFantasyEffect/Model/IceShard2.fbx
+  artifactKey: Guid(8d39682864b9554459c3c59c704da1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Model/IceShard2.fbx using Guid(8d39682864b9554459c3c59c704da1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff02c1f8125b65fb6da80c98ff3a551') in 0.032439 seconds
+  Import took 0.035403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025480 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Fireball.cs
+  artifactKey: Guid(aba4f60f1c542ae44ab00737321e4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Fireball.cs using Guid(aba4f60f1c542ae44ab00737321e4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a6a1934feeec92d3d17e869b2646aa') in 0.005998 seconds
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007256 seconds.
+  path: Assets/#NVJOB Slender/Slender/Animations/T Pose.anim
+  artifactKey: Guid(4c9fecda0a194ec2b4252cccb412cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Slender/Animations/T Pose.anim using Guid(4c9fecda0a194ec2b4252cccb412cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c818d4e634ca5435feb1ba2656d1bc') in 0.010719 seconds
+  Import took 0.013674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048536 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Editor/Resources/PolarisV2Icon.png
+  artifactKey: Guid(06d36df440fffe746bdd974f6699d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Editor/Resources/PolarisV2Icon.png using Guid(06d36df440fffe746bdd974f6699d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4201cd61d5fd91983a7f3980cec825') in 0.018047 seconds
+  Import took 0.020861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010795 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures
+  artifactKey: Guid(5f39908f1f4e44acbf8a87000c67118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures using Guid(5f39908f1f4e44acbf8a87000c67118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0c053367162795827fa5211cc5ec1d') in 0.006139 seconds
+  Import took 0.008858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006245 seconds.
+  path: Assets/PinwheelFantasyEffect/Script/Spin.cs
+  artifactKey: Guid(dee034ad5278d984489ab02cfb06681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Script/Spin.cs using Guid(dee034ad5278d984489ab02cfb06681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e1c0a24f16026f2d082fb98d007bee') in 0.005717 seconds
+  Import took 0.008539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006934 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader
+  artifactKey: Guid(7211f4aeb4f041f59b0539e64052cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader using Guid(7211f4aeb4f041f59b0539e64052cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99eb13c00c56deb09f70ff07a0d9304') in 0.006236 seconds
+  Import took 0.009321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017905 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs
+  artifactKey: Guid(006fd54bfcee421a94f942e893f69530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs using Guid(006fd54bfcee421a94f942e893f69530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec0eeeeb18f4a0b23ccdbfe845ec5c9') in 0.006103 seconds
+  Import took 0.008866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007291 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Materials/Fake Light Flash.shader
+  artifactKey: Guid(36b5db00e5ac4ef7b249fd487a0d2658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Materials/Fake Light Flash.shader using Guid(36b5db00e5ac4ef7b249fd487a0d2658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4569c0bdfee98301593707e837263db7') in 0.006860 seconds
+  Import took 0.010069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005369 seconds.
+  path: Assets/Jeremy/Model
+  artifactKey: Guid(3215cd022661b3d428fd956524bd0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Model using Guid(3215cd022661b3d428fd956524bd0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d0db9192c27bed5b56e0d0a0fec3f') in 0.005788 seconds
+  Import took 0.008852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077180 seconds.
+  path: Assets/Jeremy/Scenes/DemoSettings.lighting
+  artifactKey: Guid(d8cdcb13627e68a4da4a9f0d3648b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Scenes/DemoSettings.lighting using Guid(d8cdcb13627e68a4da4a9f0d3648b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4e15a097825e4b7cb013e0bc167442cc') in 0.007840 seconds
+  Import took 0.010821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005532 seconds.
+  path: Assets/Jeremy/Docs
+  artifactKey: Guid(bb5542a5f98ec234abde36e9bd9715c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Docs using Guid(bb5542a5f98ec234abde36e9bd9715c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5ba8de3d71ca1a86cdaa12422f4c35') in 0.006430 seconds
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007578 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs
+  artifactKey: Guid(bcf7afb4ab2b41d2bc85db6109c3df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs using Guid(bcf7afb4ab2b41d2bc85db6109c3df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d584fd8453eb237144e6c1e110c5d8b') in 0.005667 seconds
+  Import took 0.008679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037983 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Noise.png
+  artifactKey: Guid(050f8b07d8ac475e93d189691770ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Noise.png using Guid(050f8b07d8ac475e93d189691770ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c85a0495ff725d88536cc95470786f') in 0.016140 seconds
+  Import took 0.019201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009439 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+  artifactKey: Guid(d1a6252074a642baaf61fe189687e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs using Guid(d1a6252074a642baaf61fe189687e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07d0bdafca5171aea0a7f76ec027e5c') in 0.006761 seconds
+  Import took 0.009813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005967 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares
+  artifactKey: Guid(b5e13560108b4501a630f670df6b0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares using Guid(b5e13560108b4501a630f670df6b0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2ff2613aade464c0f332b7ca5e10ea') in 0.006390 seconds
+  Import took 0.009246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007826 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+  artifactKey: Guid(4278f04d5a434966a4d47419d40adcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs using Guid(4278f04d5a434966a4d47419d40adcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207a80eb2d73a25e3a5647fbc10d58c7') in 0.006655 seconds
+  Import took 0.009784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018033 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs
+  artifactKey: Guid(35750742851f45679bd5c157449d02fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs using Guid(35750742851f45679bd5c157449d02fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d95701d5f51bcfd74d21acbe322585') in 0.007226 seconds
+  Import took 0.010005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018828 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+  artifactKey: Guid(cbdbcbfc81d3480a98429ab6a1192063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader using Guid(cbdbcbfc81d3480a98429ab6a1192063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a54deed9e713b5f1ec5ccd74cade27') in 0.006687 seconds
+  Import took 0.009333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016897 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(5c13933cb3dc4c5bba19c43e00824581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(5c13933cb3dc4c5bba19c43e00824581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848cb1696cb8817db7c6d3c120a316ff') in 0.012991 seconds
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006025 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Meshes
+  artifactKey: Guid(6ca403c998b843e382c62fe86cb7b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Meshes using Guid(6ca403c998b843e382c62fe86cb7b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e2e6fac4a4bce930164e27c92a8b99') in 0.005995 seconds
+  Import took 0.008559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039036 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs
+  artifactKey: Guid(c43352b4d70643de8a61da58c9f40162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs using Guid(c43352b4d70643de8a61da58c9f40162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1d4490f606fe179b2194b254ccdaf5') in 0.005893 seconds
+  Import took 0.008805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021186 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader
+  artifactKey: Guid(45d94279849845b1a1a8a567cb4de6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader using Guid(45d94279849845b1a1a8a567cb4de6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7b2b31543187daa64b709da788da8a') in 0.007007 seconds
+  Import took 0.009942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007370 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+  artifactKey: Guid(160439147c5a4d07bbf824255fb97feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs using Guid(160439147c5a4d07bbf824255fb97feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667bf3605b572bec7a9b0b7c8e463d1e') in 0.005004 seconds
+  Import took 0.007637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007300 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs
+  artifactKey: Guid(cf3745b033614b0d95be8c1c22cf31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs using Guid(cf3745b033614b0d95be8c1c22cf31d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c666732cc42d83434013fafd2825c1c3') in 0.005973 seconds
+  Import took 0.008545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016601 seconds.
+  path: Assets/Rust Key/Mesh
+  artifactKey: Guid(f955c40fdedbcd44c81021b1b657ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Mesh using Guid(f955c40fdedbcd44c81021b1b657ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc8fdfe7ebc0af903be32ff36f72cf8') in 0.005616 seconds
+  Import took 0.008423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005086 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects
+  artifactKey: Guid(7d75e9b62a1e44c8805ab51342b2c8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects using Guid(7d75e9b62a1e44c8805ab51342b2c8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00d49f6a9c640a1d5d87b87d12bb9ee') in 0.005946 seconds
+  Import took 0.008748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004996 seconds.
+  path: Assets/Jeremy/Materials
+  artifactKey: Guid(171b20a64e99f9b44a4b486959016fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jeremy/Materials using Guid(171b20a64e99f9b44a4b486959016fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16885ba339212ece82120c384e494e26') in 0.004768 seconds
+  Import took 0.007356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005151 seconds.
+  path: Assets/Scenes/EndScene
+  artifactKey: Guid(2e689ac3d5d67154297cf724dd3b583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene using Guid(2e689ac3d5d67154297cf724dd3b583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d728a03555f5bddea5cee83fd29c0f5') in 0.005522 seconds
+  Import took 0.008045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007030 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs
+  artifactKey: Guid(59d52a4e580244d49a472797be27e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs using Guid(59d52a4e580244d49a472797be27e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af2f7bd6690e083a9f1c0c295a0062a') in 0.005988 seconds
+  Import took 0.008909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006674 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader
+  artifactKey: Guid(e77e0b08ae174e5aa861ee7d524fd8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader using Guid(e77e0b08ae174e5aa861ee7d524fd8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba03785cbb70b06ad7c547a3d9d1ae11') in 0.006349 seconds
+  Import took 0.008912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006997 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+  artifactKey: Guid(1aa181d72b7a4c9b8214443fabfc1225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader using Guid(1aa181d72b7a4c9b8214443fabfc1225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32e9a2b09b0ac2b11e8ddf80b549374') in 0.005933 seconds
+  Import took 0.008887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007200 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader
+  artifactKey: Guid(351273b6d44a493398360a6c462f013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader using Guid(351273b6d44a493398360a6c462f013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b941a9919a8161b621497c284b58ae') in 0.007476 seconds
+  Import took 0.010424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016893 seconds.
+  path: Assets/PinwheelFantasyEffect/Texture/Partex_07.psd
+  artifactKey: Guid(6be7e0079611f654dae4d26ef27e8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PinwheelFantasyEffect/Texture/Partex_07.psd using Guid(6be7e0079611f654dae4d26ef27e8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94aabbfd9d144573c6e614c85efff36') in 0.014395 seconds
+  Import took 0.017639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016862 seconds.
+  path: Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+  artifactKey: Guid(f34e0f5182d54fd99fff983c41c4772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs using Guid(f34e0f5182d54fd99fff983c41c4772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7ef9c4ddf593b10093b8f9d2e360ca') in 0.005764 seconds
+  Import took 0.008410 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
