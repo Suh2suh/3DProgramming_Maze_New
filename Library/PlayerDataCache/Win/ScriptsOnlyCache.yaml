@@ -999,4 +999,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/EndScene.unity
-  playerPath: C:/Users/SUHYEON L/Desktop/5646173_Maze/5646173_Maze.exe
+  playerPath: C:/Users/SUHYEON L/Desktop/5646173_Maze_EXE/5646173_Maze.exe

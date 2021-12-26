@@ -49,8 +49,9 @@ public class UIManager : MonoBehaviour
 
         if(GameData.havingKey == GameData.keyNum)
         {
-            if(GameObject.Find("KeyText").activeSelf != false)
-                GameObject.Find("KeyText").SetActive(false);
+            if(GameObject.Find("KeyText") != null)
+                if(GameObject.Find("KeyText").activeSelf != false)
+                    GameObject.Find("KeyText").SetActive(false);
         }
     }
 
