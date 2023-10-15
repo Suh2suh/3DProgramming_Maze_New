@@ -11,18 +11,23 @@ public class GameManager : MonoBehaviour
 
     List<GameObject> keyPoses;
 
-    List<GameObject> enemyTarget;
+    List<List<GameObject>> SlenderTargets = new List<List<GameObject>>();
 
-    int activePortal = 5;
-    int once = 0;
+    [SerializeField] AudioSource bellSound;
 
-    int recentKeyPos = -1;
+    int activePortal = 10;
+
+    List<int> recentKeyPoses = new List<int>();
     public GameObject KeyObject;
+
+    [SerializeField] List<GameObject> Slenders;
 
     void Start()
     {
         GameData.result = 0;
         GameData.havingKey = 0;
+
+        bellSound.volume = 0f;
 
         portalPoses = new List<GameObject>();
         randPortals = new List<GameObject>();
@@ -30,10 +35,8 @@ public class GameManager : MonoBehaviour
 
         movePoses = new List<Vector3>();
 
-        if(GameObject.Find("Slender") != null)
-        {
-            enemyTarget = GameObject.Find("Slender").GetComponent<EnemyController>().target;
-        }
+        //첫번째 슬렌더 리스트 추가
+        SlenderTargets.Add(Slenders[0].GetComponent<EnemyController>().target);
 
         for (int i = 1; i <= GameData.portalPosN; i++)
         {
@@ -48,38 +51,72 @@ public class GameManager : MonoBehaviour
         randKeyMaker(); //시작할 때 열쇠 하나 생성
     }
 
+
+    bool IsPlayerFound = false;
+
     // Update is called once per frame
     [System.Obsolete]
     void Update()
     {
-        if(enemyTarget.Count > 0 && once == 0)
+        for (int i = 0; i < SlenderTargets.Count; i++)
         {
-            randPortalMaker();
-
-            once = 1;
-        }
-        else if(enemyTarget.Count == 0 && once == 1)
-        {
-            if(once != 0)
+            if (SlenderTargets[i].Count > 0 && IsPlayerFound)
             {
-                once = 0;
+                randPortalMaker();
+
+                bellSound.volume = 0.3f;
+
+                IsPlayerFound = false;
             }
-            randPortalDelete();
+            else if (SlenderTargets[i].Count == 0 && !IsPlayerFound)
+            {
+                if (!IsPlayerFound)
+                {
+                    bellSound.volume = 0f;
+
+                    IsPlayerFound = true;
+                }
+                randPortalDelete();
+            }
         }
 
-        if(GameData.result != 0)                                        //승리나 패배하면 endscene으로
+
+        if(GameData.result == 1)                                        //패배하면 endscene으로
         {
             SceneManager.LoadScene("EndScene");
         }
+        else if(GameData.result == 2)
+		{
+            SceneManager.LoadScene("ClearScene");
+        }
 
-        if(GameData.havingKey == GameData.keyNum)  //열쇠 다 찾았으면 run text 띄우기
+        if (GameData.havingKey == GameData.keyNum)  //열쇠 다 찾았으면 run text 띄우기
         {
             GameObject.Find("UIManager").GetComponent<UIManager>().onRunText();
-            if(enemyTarget.Count == 0)
+
+            for (int i = 0; i < Slenders.Count; i++)
             {
-                enemyTarget.Add(GameObject.Find("Player"));
+                if (SlenderTargets[i].Count == 0)
+                {
+                    SlenderTargets[i].Add(GameObject.Find("Player"));
+                }
             }
         }
+    }
+
+    public void AddSlender()
+	{
+        switch(GameData.havingKey)
+		{
+            case 1:
+                Slenders[1].SetActive(true);
+                SlenderTargets.Add(Slenders[1].GetComponent<EnemyController>().target);
+                break;
+            case 2:
+                Slenders[2].SetActive(true);
+                SlenderTargets.Add(Slenders[2].GetComponent<EnemyController>().target);
+                break;
+		}
     }
 
     [System.Obsolete]
@@ -136,18 +173,22 @@ public class GameManager : MonoBehaviour
     public void randKeyMaker()
     {
         int nowKeyPos;
-        if (GameData.havingKey < GameData.keyNum)  //랜덤 위치에 열쇠 생성 (열쇠 다 못 찾았을 때에만)
-        {
-            do
+
+        for(int i = 0; i<GameData.keyNum; i++)
+		{
+            if (GameData.havingKey < GameData.keyNum)  //랜덤 위치에 열쇠 생성 (열쇠 다 못 찾았을 때에만)
             {
-                nowKeyPos = Random.Range(0, GameData.keyPosN);
-            } while (nowKeyPos == recentKeyPos);              //가장 최근의 위치에는 생성하지 않음 (플레이어가 직전에 열쇠를 얻은 곳)
+                do
+                {
+                    nowKeyPos = Random.Range(0, GameData.keyPosN);
+                } while (recentKeyPoses.Contains(nowKeyPos));              //가장 최근의 위치에는 생성하지 않음 (플레이어가 직전에 열쇠를 얻은 곳)
 
-            Instantiate(KeyObject, keyPoses[nowKeyPos].transform);
+                Instantiate(KeyObject, keyPoses[nowKeyPos].transform);
 
-            recentKeyPos = nowKeyPos;
+                recentKeyPoses.Add(nowKeyPos);
 
-            Debug.Log("Made a Key in " + nowKeyPos);
+                Debug.Log("Made a Key in " + nowKeyPos);
+            }
         }
     }
 }

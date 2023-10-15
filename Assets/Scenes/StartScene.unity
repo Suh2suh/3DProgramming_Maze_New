@@ -435,7 +435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: escape here
+  m_Text: original scene
 --- !u!222 &659823334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: M A Z e
+  m_Text: prayer
 --- !u!222 &988540729
 CanvasRenderer:
   m_ObjectHideFlags: 0

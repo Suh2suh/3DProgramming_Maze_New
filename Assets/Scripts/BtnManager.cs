@@ -13,11 +13,11 @@ public class BtnManager : MonoBehaviour
         {
             if(GameData.result == 1)
             {
-                GameObject.Find("Result_Text").GetComponent<Text>().text = "FAILED";
+                GameObject.Find("Result_Text").GetComponent<Text>().text = "Couldn't escape from the curse...";
             }
             else if(GameData.result == 2)
             {
-                GameObject.Find("Result_Text").GetComponent<Text>().text = "SUCCEED";
+                GameObject.Find("Result_Text").GetComponent<Text>().text = "tere is no next chance...";
             }
         }
     }

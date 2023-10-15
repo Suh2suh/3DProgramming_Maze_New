@@ -66,11 +66,11 @@ public class UIManager : MonoBehaviour
         
         if(GameData.havingKey == 0)
         {
-            noKeyText.text = "I DO NOT HAVE EVEN A SINGLE KEY...";
+            noKeyText.text = "FIND MY PIECE... THIS IS PUNUSHMENT";
         }
         else if(GameData.havingKey < GameData.keyNum)
         {
-            noKeyText.text = "IT SEEMS I NEED MORE KEYS\nTO GET OUT OF HERE";
+            noKeyText.text = "IT SEEMS I NEED TO FIND ITS PIECIE\nTO GET OUT OF HERE";
         }
     }
 
@@ -107,6 +107,19 @@ public class UIManager : MonoBehaviour
 
         }
     }
+
+    [SerializeField] GameObject DashText;
+    public void OnDashText()
+	{
+        DashText.SetActive(true);
+
+    }
+
+    public void RemoveDashText()
+	{
+        if (DashText.activeSelf)
+            DashText.SetActive(false);
+	}
 
     /*
     [System.Obsolete]

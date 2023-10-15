@@ -31,7 +31,10 @@ public class ChrController : MonoBehaviour
             if (dashTime >= 4)
             {
                 dashDelay = false;
+
+                GameObject.Find("UIManager").GetComponent<UIManager>().OnDashText();
                 dashTime = 0;
+                //대쉬가능 텍스트 띄우기
             }
         }
 
@@ -72,17 +75,24 @@ public class ChrController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (!dashDelay)
-            {
-                dashTime += Time.deltaTime;
-
-                moveSpd = startSpd * 1.7f;
-
-                if (dashTime >= 2)
+            if(!IsTouchingWall)
+			{
+                if (!dashDelay)
                 {
-                    moveSpd = startSpd;
-                    dashDelay = true;
-                    dashTime = 0;
+
+                    dashTime += Time.deltaTime;
+
+                    moveSpd = startSpd * 2f;
+
+                    if (dashTime >= 5)
+                    {
+                        moveSpd = startSpd;
+                        dashDelay = true;
+                        dashTime = 0;
+
+                        //대쉬가능 텍스트 없애기(한 번만)
+                        GameObject.Find("UIManager").GetComponent<UIManager>().RemoveDashText();
+                    }
                 }
             }
         }
@@ -92,8 +102,12 @@ public class ChrController : MonoBehaviour
         }
     }
 
+
+    bool IsTouchingWall = false;
+
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.name.Contains("Portal"))
         {
             List<Vector3> movePoses = GameObject.Find("GameManager").GetComponent<GameManager>().movePoses;
@@ -103,7 +117,7 @@ public class ChrController : MonoBehaviour
                 gameObject.transform.position = movePoses[Random.Range(0, movePoses.Count)] + (Vector3.forward * 20);
             }
         }
-
+        
         if(other.name == "Goal")
         {
             if(GameData.havingKey == GameData.keyNum)
@@ -115,8 +129,8 @@ public class ChrController : MonoBehaviour
                 GameObject.Find("UIManager").GetComponent<UIManager>().setNoKeyText();
             }
         }
-
-        if (other.name.Contains("KeyObj"))
+        
+        if (other.transform.tag == "Key")
         {
             int one = 0;
 
@@ -125,9 +139,10 @@ public class ChrController : MonoBehaviour
                 if(GameData.havingKey < GameData.keyNum)
                 {
                     GameData.havingKey++;
-                    Destroy(other.gameObject);
 
-                    GameObject.Find("GameManager").GetComponent<GameManager>().randKeyMaker();
+                    GameObject.Find("GameManager").GetComponent<GameManager>().AddSlender();
+
+                    Destroy(other.gameObject);
                 }
             }
         }
@@ -137,6 +152,15 @@ public class ChrController : MonoBehaviour
     {
         if(collision.gameObject.name.Contains("Wall")){
             moveSpd = 0;
+            IsTouchingWall = true;
+        }
+    }
+
+	private void OnCollisionExit(Collision collision)
+	{
+        if (collision.gameObject.name.Contains("Wall"))
+        {
+            IsTouchingWall = false;
         }
     }
 }

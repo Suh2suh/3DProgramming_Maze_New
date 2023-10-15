@@ -86,6 +86,10 @@ public class EnemyController : MonoBehaviour
                     anim.SetBool("run", false);
                     anim.SetBool("idle", true);
                     Debug.Log("Miss");
+
+                    screamSec = 3f;
+                    music.volume = 0f;
+
                     target.Clear();
                 }
             }

@@ -7,7 +7,7 @@ public class GameData : MonoBehaviour
     private static GameData instance = null;
 
     public static int result; //0 == null, 1 == lose, 2 == win
-    public static int keyNum = 5;
+    public static int keyNum = 3;
     public static int havingKey = 0;
 
     public static int portalPosN = 13;     //1~13
